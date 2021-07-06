@@ -1,12 +1,10 @@
-import sys
-import json
 import CONFIGS
 from socket import socket, AF_INET, SOCK_STREAM
 from function import get_from_server, check_message_on_server, send, create_ip_port
 from Logger import logger
 
 
-@logger('server.log')
+
 def start_server():
 
     ip, port = create_ip_port()
