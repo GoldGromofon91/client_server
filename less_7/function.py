@@ -80,14 +80,15 @@ def request_server(read_clients_list, write_clients_list, client_list):
     for read_client_sock in read_clients_list:
         try:
             message = read_client_sock.recv(1024)
+            for write_client_sock in write_clients_list:
+                try:
+                    write_client_sock.send(message)
+                except:
+                    client_list.remove(write_client_sock)
         except:
-            pass
+            read_clients_list.remove(read_client_sock)
+            continue
 
-        for write_client_sock in write_clients_list:
-            try:
-                write_client_sock.send(message)
-            except:
-                client_list.remove(write_client_sock)
 
 
 if __name__ == "__main__":

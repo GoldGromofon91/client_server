@@ -22,6 +22,8 @@ def start_server():
             client_list.append(client)
         except OSError:
             pass
+
+
         try:
             read_clients, write_clients, error = select.select(client_list, client_list, [], 0)
         except:
