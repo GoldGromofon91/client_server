@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a8d1065-76f5-4abf-b74a-b56788314ee5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/less_8/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/less_8/client_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/less_8/server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/less_7/CONFIGS.py" beforeDir="false" afterPath="$PROJECT_DIR$/less_7/CONFIGS.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/less_7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/less_8" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -39,6 +43,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/less_8" />
       <recent name="$PROJECT_DIR$/less_7" />
     </key>
   </component>
@@ -55,7 +60,7 @@
       <workItem from="1624997069586" duration="3633000" />
       <workItem from="1625593003266" duration="2119000" />
       <workItem from="1625939190650" duration="5121000" />
-      <workItem from="1626283513162" duration="282000" />
+      <workItem from="1626283513162" duration="5761000" />
     </task>
     <servers />
   </component>
@@ -64,5 +69,16 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
