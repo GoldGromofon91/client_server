@@ -1,13 +1,10 @@
-import json
-import sys
-import time
 from socket import socket, AF_INET, SOCK_STREAM
-import CONFIGS
+
 from function import get_template_message, send, get_from_server, check_message_on_client, create_ip_port
 from Logger import logger
 
 
-@logger('client.log')
+
 def start():
     #Получаем ip,port
     ip,port = create_ip_port(type='client')
